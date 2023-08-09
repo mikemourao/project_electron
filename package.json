@@ -1,0 +1,20 @@
+{
+  "name": "project_electron",
+  "version": "1.0.0",
+  "main": "public/electron.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "win": {
+      "target": "nsis" 
+    }
+  },  
+  "author": "Mike Igor",
+  "license": "ISC",
+  "description": "upload de arquivo",
+  "devDependencies": {
+    "electron": "^25.4.0"
+  }
+}
